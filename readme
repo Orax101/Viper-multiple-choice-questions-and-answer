@@ -1,0 +1,238 @@
+Which of the following is a valid way to define a function in Viper?
+a.None of the above.
+b.def function_name() [ans]
+c.function function_name()
+d.func function_name()
+
+ # Which of the following is a valid way to use the "require" function in Viper?
+a.require(my_condition, "Error message"); [ans]
+b.require("Error message", my_condition);
+c.None of the above.
+d.require(my_condition);
+
+What is the purpose of the "storage" keyword in Viper?
+a.It is used to indicate that a variable is stored in memory.
+b.It is used to indicate that a variable is stored on the server.
+c.It is not used in Viper.
+d.It is used to indicate that a variable is stored on the blockchain.[ans]
+
+
+What is the purpose of the "revert" keyword in Viper?
+a.It is not used in Viper.
+b.It is used to throw an error and revert the transaction.[ans]
+c.It is used to indicate the end of a function.
+d.It is used to delete a contract.
+
+
+What is the purpose of the "msg.value" keyword in Viper?
+a.It is used to indicate the amount of Ether sent with a transaction.[ans]
+b.It is used to indicate the block number of the current block.
+c.It is used to indicate the address of the sender of a transaction.
+d.It is not used in Viper.
+
+
+Which of the following is a valid way to define a custom data type in Viper?
+a.data my_type uint256 [ans]
+b.None of the above.
+c.custom my_type uint256
+d.typedef my_type uint256
+
+
+Which of the following is a valid way to define an array in Viper?
+a.None of the above.
+b.array my_array = [1, 2, 3];
+c.uint my_array[3] = [1, 2, 3];
+d.uint[3] my_array = [1, 2, 3];[ans]
+
+Which of the following is a valid way to use the "suicide" keyword in Viper?
+a  suicide("my_address");
+b.suicide();  [ans]
+c.None of the above.
+d.suicide(my_address);
+
+What is the purpose of the "pure" keyword in Viper?
+a.It is not used in Viper.
+b.It is used to indicate that a function does not modify the state. [ans]
+c.It is used to indicate that a function is payable.
+d.It is used to indicate that a function modifies the state.
+
+What is the purpose of the "constant" keyword in Viper?
+a.It is used to indicate that a function modifies the state.
+b.It is not used in Viper.
+c.It is used to indicate that a function does not modify the state.[ans]
+d.It is used to indicate that a function can receive Ether.
+
+Which of the following is a valid way to define a modifier in Viper?
+a.None of the above.
+b.function my_modifier() modifier { // code }
+c.modifier() { // code } function my_modifier() { // code }
+d.modifier my_modifier() { // code }[ans]
+
+Which of the following is a valid way to use a modifier in Viper?
+a.None of the above.
+b.function my_function() my_modifier { // code }  [ans]
+c.modifier my_modifier { // code }
+d.function my_function() { // code } my_modifier;
+
+Which of the following is a valid way to call a function in Viper?
+a.contract.function_name()
+b.All of the above.[ans]
+c.function_name()
+d.this.function_name()
+
+What is the purpose of the "selfdestruct" function in Viper?
+a.It is used to destroy a specified contract and transfer its remaining balance to the current contract.
+b.It is used to transfer Ether from the current contract to a specified address.
+c.It is not used in Viper.
+d.It is used to destroy the current contract and transfer its remaining balance to a specified address.[ans]
+
+What is the purpose of the "view" keyword in Viper?
+a.It is used to indicate that a function is payable.
+b.It is used to indicate that a function modifies the state.
+c.It is used to indicate that a function does not modify the state.[ans]
+d.It is not used in Viper.
+
+Which of the following is a valid way to access an element in an array in Viper?
+a.my_array(0)
+b.None of the above.
+c.my_array{0}
+d my_array[0] [ans]
+
+What is the purpose of the "emit" keyword in Viper?
+a.It is used to indicate the start of a function.
+b.It is not used in Viper.
+c.It is used to emit an event. [ans]
+d.It is used to indicate the end of a function.
+
+Which of the following is a valid way to use the "msg.sender" variable in Viper?
+a.msg.sender(address);
+b.None of the above. [ans]
+c.msg.sender();
+d.address msg.sender;
+
+What is the purpose of the "msg.data" keyword in Viper?
+a.It is not used in
+b.It is used to indicate the data sent with a transaction. [ans]
+c.It is used to indicate the amount of Ether sent with a transaction.
+d.It is used to indicate the block number of the current block.
+
+Which of the following is a valid way to use a conditional statement in Viper?
+a.None of the above.
+b.if my_condition { // code } [ans]
+c.if { // code } my_condition;
+d.if (my_condition) { // code }
+
+What is the purpose of the "msg.sender" keyword in Viper?
+a.It is used to refer to a function.
+b.It is not used in Viper.
+c.It is used to refer to the contract itself.
+d.It is used to refer to the sender of a transaction.[ans]
+
+Which of the following is a valid way to define an array in Viper?
+a.array my_array = [1, 2, 3];
+b.None of the above.
+c.uint[3] my_array = [1, 2, 3]; [ans]
+d.uint my_array[3] = [1, 2, 3];
+
+What is the purpose of the "modifier" keyword in Viper?
+a.It is not used in Viper.
+b.It is used to restrict access to certain functions. [ANS]
+c.It is used to modify the state.
+d.It is used to access the Ethereum Virtual Machine (EVM) directly.
+
+
+What is the purpose of the "storage" keyword in Viper?
+a.It is used to indicate that a variable is stored in memory.
+b.It is used to indicate that a variable is stored on the server.
+c.It is not used in Viper.
+d.It is used to indicate that a variable is stored on the blockchain. [ans]
+
+Which of the following is a valid way to access an element in an array in Viper?
+a.my_array{0}
+b.my_array(0)
+c.my_array[0] [ans]
+d.None of the above.
+
+What is the purpose of the "assert" function in Viper?
+a.It is not used in Viper.
+b.It is used to check if a condition is true and revert the transaction if it is not.
+c.It is used to check if a condition is true and return an error if it is not.
+d.It is used to check if a condition is false and revert the transaction if it is not. [ans]
+
+What is the purpose of the "keccak256" function in Viper?
+a.It is used to hash a value using the SHA3 algorithm. [ans]
+b.It is not used in Viper.
+c.It is used to generate a random number.
+d.It is used to convert a value to its binary representation.
+
+Which of the following is a valid way to define a mapping in Viper?
+a.mapping(address, uint) = my_mapping;
+b.b.mapping(address, uint) my_mapping;
+c.mapping(address =&gt; uint) my_mapping; [ans]
+d.None of the above.
+
+Which of the following is a valid way to use a loop in Viper?
+a.for (i = 0; i &lt; 10; i++) { // code }
+b.do { // code } while (i &lt; 10);
+c.while (i &lt; 10) { // code }
+d.All of the above. [ans]
+
+What is the difference between "assert" and "require" in Viper?
+a."assert" is used to check for user errors, while "require" is used to check for internal errors.
+b.b."assert" and "require" cannot be used in Viper.
+c."assert" is used to check for internal errors, while "require" is used to check for user errors. [ans]
+d."assert" and "require" are synonyms in Viper.
+
+Which of the following is a valid way to create a new contract in Viper?
+a.new Contract() [ans]
+b.self.Contract()
+c.None of the above.
+d.Contract()
+
+What is the syntax for creating a function in Viper?
+a.def function_name: function_body -&gt; return_type(parameters)
+b.def function_name: return_type(parameters) -&gt; function_body
+c.def function_name -&gt; return_type: function_body
+d.def function_name(parameters) -&gt; return_type: function_body [ans]
+
+What is the purpose of the "assembly" keyword in Viper?
+a.It is not used in Viper.
+b.It is used to write low-level system calls in Viper.
+c.It is used to write inline assembly code in Viper. [ans]
+d.It is used to access the Ethereum Virtual Machine (EVM) directly.
+
+What is the purpose of the "selfdestruct" keyword in Viper?
+a.It is not used in Viper.
+b.It is used to indicate the end of a function.
+c.It is used to throw an error and revert the transaction.
+d.It is used to delete a contract and send its remaining Ether to a designated address. [ans]
+
+What is the difference between a private function and a public function in Viper?
+a.There is no difference between a private and public function in Viper.
+b. A private function can only be called from outside the contract, while a public function can be called from within the contract.
+c. A private function can only be accessed within the scope of the function, while a public function can be accessed from anywhere in the program.
+d. A private function can only be called from within the contract, while a public function can be called from outside the contract. [ans]
+
+What is the purpose of the "self" keyword in Viper?
+a.It is not used in Viper.
+b.It is used to refer to a function.
+c.It is used to refer to the sender of a transaction.
+d.It is used to refer to the contract itself.[ans]
+
+What is the purpose of the "pure" keyword in Viper?
+a.It is used to indicate that a function does not modify the state. [ans]
+b.It is not used in Viper.
+c.It is used to indicate that a function is payable.
+d.It is used to indicate that a function modifies the state.
+
+Which of the following is a valid way to define an array in Viper?
+a.None of the above.
+b.uint[3] my_array = [1, 2, 3]; [ans]
+c.uint my_array[3] = [1, 2, 3];
+d.array my_array = [1, 2, 3];
+
+What is the purpose of the "throw" keyword in Viper?
+a.It is not used in Viper.
+b.It is used to access the Ethereum Virtual Machine (EVM) directly.
+c.It is used to emit an event.
+d.It is used to revert the transaction.
