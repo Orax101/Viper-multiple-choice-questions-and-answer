@@ -236,3 +236,47 @@ a.It is not used in Viper.
 b.It is used to access the Ethereum Virtual Machine (EVM) directly.
 c.It is used to emit an event.
 d.It is used to revert the transaction.
+
+Which of the following is a valid way to use the "revert" function in Viper?
+a.revert();
+b.revert("Error message");
+c.revert(0x123456);
+d.All of the above.[ans]
+
+What is the purpose of the "require" keyword in Viper?
+a.It is used to throw an error and revert the transaction.[ans]
+b.It is used to delete a contract.
+c.It is used to indicate the end of a function.
+d.It is not used in Viper.
+
+Which of the following data types are available in Viper?
+a.Int, byte, list
+b.Int, char, map
+c.Int, float, boolean
+d.Int, string, address [and]
+
+
+What is the purpose of the "payable" keyword in Viper?
+a.It indicates that a function can receive Ether.[ans]
+b.It is used to declare a function.
+c.It is used to declare a variable.
+d.It indicates that a function cannot receive Ether.
+
+What is the purpose of the "raw_call" function in Viper?
+a.It is used to delete a contract.
+b.It is used to transfer Ether to another contract.
+c.It is used to call a function in another contract.[ans]
+d.It is not used in Viper.
+
+Which of the following is a valid way to define a variable in Viper?
+a.None of the above.
+b.let variable = 5
+c.variable = 5
+d.var variable = 5 [ans]
+
+What is the purpose of the "payable" keyword in Viper?
+a.It is not used in Viper.
+b.It is used to indicate the amount of Ether sent with a transaction.
+c.It is used to indicate that a function modifies the state.
+d.It is used to indicate that a function can receive Ether. [ans]
+
